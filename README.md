@@ -7,6 +7,7 @@ Welcome to the **Communication Assistant for Dyslexia** project! This web aims t
 - [Description](#description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Installation](#Installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
@@ -34,6 +35,46 @@ The **Communication Assistant for Dyslexia** web is designed to help dyslexic us
 - Pyttsx3 for text-to-speech.
 - Matplotlib and Pandas for data visualization and progress tracking.
   
+## Installation
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Value19/ECHOLEX.git
+
+2. Navigate into the project directory:
+   
+   ```bash
+   cd ECHOLEX
+   
+4. Create a virtual environment (optional but recommended):
+   
+   ```bash
+   python -m venv venv
+
+5. Activate the virtual environment:
+   
+   ```bash
+   source venv/bin/activate
+   
+6. Install the required dependencies
+   ```bash
+   pip install streamlit
+   pip install requests
+   pip install google-generativeai
+   pip install speechrecognition
+   pip install langdetect
+   pip install pyttsx3
+   pip install matplotlib
+   pip install pandas
+   pip install pyaudio
+
+7. Set your Gemini API key. Replace the API_KEY in the script with your actual Gemini API key.
+8. Run the application:
+   
+   ```bash
+   streamlit run app.py
+
+
 ## Usage
 
 Run the application using Streamlit:
