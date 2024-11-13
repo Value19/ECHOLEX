@@ -13,7 +13,7 @@ from datetime import datetime
 st.set_page_config(page_title="Dyslexia Communication Assistant", layout="centered")
 
 # Gemini API key
-API_KEY = "AIzaSyD4NP35vvgCzw2AoD0Shds8KIRs6XijswM"
+API_KEY = "your API key"
 
 
 # Function to correct text using Gemini API
